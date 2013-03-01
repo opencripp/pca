@@ -46,7 +46,7 @@ public final class R {
         public static final int TextView01=0x7f08000c;
         public static final int TextView0100=0x7f08000a;
         public static final int TextView02=0x7f08000d;
-        public static final int TextView0200=0x7f08000b;
+        public static final int TextView020000=0x7f08000b;
         public static final int TextView022=0x7f08000f;
         public static final int TextView0222=0x7f080011;
         public static final int TextView03=0x7f080009;
