@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<resources> 
+<!-- server screen -->
+ 
+<!-- tittle for the main server list -->
+ <string name="active_servers">Сервера з активною розробкою</string> 
+<!-- end of server screen -->
+ 
+<!-- credit screen -->
+ 
+<!-- original contributors tittle -->
+ <string name="og_cont">Автори програми</string> 
+<!-- og contributors -->
+ <string name="vazay_cont">app.motocheck.tk | Веб програміст</string> <string name="vladeco_cont">Офіційна іконка PCA | Дизайнер</string> <string name="phydo_cont">Java та Linux | Програміст</string> <string name="matt_cont">Java та Linux | Програміст</string> <string name="samcripp_cont">Java та Linux | Програміст</string> 
+<!-- original testers tittle -->
+ <string name="og_testers">Тестери програми</string> 
+<!-- original testers -->
+ </resources>

@@ -1,0 +1,32 @@
+<resources>
+    <!--  server screen -->
+    
+    <!-- tittle for the main server list -->
+    <string name="active_servers">שרתים אם פיתוח אקטיבי</string>
+    
+    <!-- end of server screen -->
+    
+    
+    <!--  credit screen -->
+    
+    <!-- original contributors tittle -->
+    <string name="og_cont">מפתחים</string>
+    
+    <!-- og contributors -->
+
+    <string name="vazay_cont">app.motocheck.tk | פיתוח אתרים</string>
+
+    <string name="vladeco_cont">אייקון המקורי של התכנה | עיצוב גרפי</string>
+ 
+    <string name="phydo_cont">ג\'אווה ולינוקס | מתכנת</string>
+    
+    <string name="matt_cont">ג\'אווה ולינוקס | מתכנת</string>
+
+    <string name="samcripp_cont">ג\'אווה ולינוקס | מתכנת</string>
+    
+    <!-- original testers tittle -->
+    <string name="og_testers">בודקי תוכנה</string>
+    
+    <!-- original testers -->
+
+</resources>

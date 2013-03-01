@@ -1,0 +1,66 @@
+<resources>
+    <!--  server screen -->
+    
+    <!-- tittle for the main server list -->
+    <string name="active_servers">Servers with active development</string>
+    
+    <!-- end of server screen -->
+    
+    
+    <!--  credit screen -->
+    
+    <!-- original contributors tittle -->
+    <string name="og_cont">Original Contributors</string>
+    
+    <!-- og contributors -->
+    <string name="vazay">Vazay</string>
+    <string name="vazay_cont">app.motocheck.tk | Web Developer</string>
+    <string name="upndwn4par">upndwn4par</string>
+    <string name="upndwn4par_cont">Instructions | Developer</string>
+    <string name="vladeco">vladeco</string>
+    <string name="vladeco_cont">Official PCA Icon | Graphic Designer</string>
+    <string name="phydo">phydo</string>
+    <string name="phydo_cont">Java and Linux | Programmer</string>
+    <string name="matt">mattlgroff</string>
+    <string name="matt_cont">Java and Linux | Programmer</string>
+    <string name="samcripp">SamCripp | Samuel Rivera</string>
+    <string name="samcripp_cont">Java and Linux | Programmer</string>
+    
+    <!-- localization work -->
+    <string name="locale">Localization</string>
+    <string name="local_cont">Vazay (ru, iw, au), ravilov (hr), SamCripp (es)</string>
+    
+    <!-- original testers tittle -->
+    <string name="og_testers">Original Testers</string>
+    
+    <!-- original testers -->
+    <string name="og_testers_group">debt collector, soudy1994, upndwn4par, Vazay</string>
+    
+    <!-- end original testers -->
+    
+    <!-- instructions -->
+    
+    <string name="instructions">Pre-work:\n
+1) Requires Superuser is permanently installed. If you are using a stock blur rom go to the Play Store and download "/system/app/mover" and "BusyBox Free" (unless you are already BusyBoxed). Install BusyBox with app, then use /system/app/mover to move Superuser to /system/app folder.\n
+2) Install Project Cheesecake App then move app to /system/app folder with a root access file manager (tip from Sam).\n
+3) Nandroid Backup\n
+\n
+Cheesecaking:\n
+1) Open app\n
+2) Press gear icon, select server to check, app reboots to recovery\n
+3) Format data, reboot\n
+4) Create fake blur account (do not use your regular blur account - any nonsense will do)\n
+5) Settings, About Phone, System Updates\n
+6) Lather, rinse, repeat\n
+\n
+Sounds like a lot of work, but you actually spend most of your time waiting. Great to do while watching TV.\n
+\n
+Note: If you select a server that is offline you will not be able to create a blur account after reboot. You will either need restore your nandroid backup or skip blur.\n
+\n
+\n
+P.S. You would think that after all this time someone would have figured out a way to delete blur accounts without having to factory reset.\n
+\n
+Tip from Sam: "Install it on the /system/app folder so it doesn't erase each time you do a factory reset"\n
+        
+    </string>
+</resources>

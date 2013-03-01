@@ -1,0 +1,32 @@
+<resources>
+    <!--  server screen -->
+    
+    <!-- tittle for the main server list -->
+    <string name="active_servers">Сервера с активной разработкой</string>
+    
+    <!-- end of server screen -->
+    
+    
+    <!--  credit screen -->
+    
+    <!-- original contributors tittle -->
+    <string name="og_cont">Авторы программы</string>
+    
+    <!-- og contributors -->
+
+    <string name="vazay_cont">app.motocheck.tk| Веб программист</string>
+
+    <string name="vladeco_cont">Официальная иконка PCA | Дизайнер</string>
+
+    <string name="phydo_cont">Java и Linux | Программист</string>
+
+    <string name="matt_cont">Java и Linux | Программист</string>
+    
+    <string name="samcripp_cont">Java и Linux | Программист</string>
+    
+    <!-- original testers tittle -->
+    <string name="og_testers">Тестеры программы</string>
+    
+    <!-- original testers -->
+
+</resources>

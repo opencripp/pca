@@ -1,0 +1,29 @@
+<resources>
+	<!-- server screen -->
+
+	<!-- tittle for the main server list -->
+	<string name="active_servers">Poslužitelji sa aktivnim razvojem</string>
+
+	<!-- end of server screen -->
+
+
+	<!-- credit screen -->
+
+	<!-- original contributors tittle -->
+	<string name="og_cont">Izvorni suradnici</string>
+
+	<!-- og contributors -->
+
+	<string name="vazay_cont">app.motocheck.tk | razvoj web okruženja</string>
+
+	<string name="vladeco_cont">Službena ikona za PCA | grafički dizajner</string>
+
+	<string name="phydo_cont">Java i Linux | programer</string>
+	
+	<string name="matt_cont">Java i Linux | programer</string>
+
+	<string name="samcripp_cont">Java i Linux | programer</string>
+
+	<!-- original testers tittle -->
+	<string name="og_testers">Izvorni testeri</string>
+</resources>

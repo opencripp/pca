@@ -1,0 +1,31 @@
+<resources>
+    <!--  server screen -->
+    
+    <!-- tittle for the main server list -->
+    <string name="active_servers">Servidores con desarrollo activo</string>
+    
+    <!-- end of server screen -->
+    
+    
+    <!--  credit screen -->
+    
+    <!-- original contributors tittle -->
+    <string name="og_cont">Colaboradores Originales</string>
+    
+    <!-- og contributors -->
+
+    <string name="vazay_cont">app.motocheck.tk | Desarrollador de Web</string>
+
+    <string name="vladeco_cont">Icono Oficial de PCA | Diseñador Gráfico</string>
+
+    <string name="phydo_cont">Java y Linux | Programador</string>
+    
+    <string name="matt_cont">Java y Linux | Programador</string>
+
+    <string name="samcripp_cont">Java y Linux | Programador</string>
+    
+    <!-- original testers tittle -->
+    <string name="og_testers">Usuarios Originales</string>
+    
+    <!-- end of credit screen -->
+</resources>
