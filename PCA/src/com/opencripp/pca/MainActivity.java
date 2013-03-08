@@ -1,4 +1,4 @@
-package com.samcripp.pca;
+package com.opencripp.pca;
 
 import java.io.DataOutputStream;
 import java.io.IOException;

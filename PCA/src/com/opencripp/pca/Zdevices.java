@@ -19,7 +19,7 @@
 //
 // Thanks for following this simple rules.
 
-package com.samcripp.pca;
+package com.opencripp.pca;
 
 import android.os.Build;
 import android.os.Environment;
