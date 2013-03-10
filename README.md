@@ -1,7 +1,7 @@
-Project-Cheesecake-App
+Open-Cheesecake-App
 ======================
 
-1.6.6 Is the latest release of Project Cheesecake App.
+1.7 Is the latest release of Open Cheesecake App.
 
 This application aims to facilitate users of motorola phones the avility of downloading development OTAs. This software
 is distributed free of charge, and only for scientific purpose. None of the contributors, github, opencripp.org, or motorola
