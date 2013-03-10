@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.samcripp.pca;
+package com.opencripp.pca;
 
 public final class R {
     public static final class attr {
