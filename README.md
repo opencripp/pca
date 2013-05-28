@@ -1,7 +1,7 @@
 Open-Cheesecake-App
 ======================
 
-1.7 Is the latest release of Open Cheesecake App.
+1.7.1 Is the latest release of Open Cheesecake App.
 
 This application aims to facilitate users of motorola phones the avility of downloading development OTAs. This software
 is distributed free of charge, and only for scientific purpose. None of the contributors, github, opencripp.org, or motorola
@@ -21,6 +21,4 @@ debt collector, soudy1994, upndwn4par, Vazay
 Latest-Changes
 ==============
 
-mattlgroff: added a new device to the application. Welcome Motorola Razr i users!
-
-samcripp: modify the credits to include mattlgroff, and change the website again.
+samcripp: added a new device information class. added a few more devices.
