@@ -11,8 +11,14 @@ import android.view.View;
 
 public class MainActivity extends FragmentActivity {
 		
-Zdevices device = new Zdevices();
-
+DeviceInfo CurrentDevice = new DeviceInfo();
+String myPhone[];
+//[0] = realname, [1] = phone, [2] = os, [3] = boot, 
+//[4] = system, [5] = data, [6] = osh, [7] = storage, 
+String myFormat[];
+//[0] = format
+boolean mySupport[];
+//[0] = support, [1] = sndinit, [2] oshsupport, [3] databackup
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,8 +26,8 @@ Zdevices device = new Zdevices();
         
         //identifying the device.
         Log.v("PCA", "Identifying the device.");
-        device.SetIt();
-        Log.v("PCA", device.Phone() + " " + device.System() + " " + device.FPart());
+        CurrentDevice.Identify();
+        Log.v("PCA", myPhone[1] + " " + myPhone[4] + " " + myFormat[0]);
         
         Log.v("PCA", "Loading view, fragment web.");
         
@@ -84,15 +90,14 @@ Zdevices device = new Zdevices();
     	transaction.commit();
     }
     public void Update(final String server){
-     //   new Thread(new Runnable() { 
-     //      	public void run() { 
+
     	Log.v("PCA", "Requesting SU");
     	Process p;
 		try{
 			p = Runtime.getRuntime().exec("su"); 
 			DataOutputStream os = new DataOutputStream(p.getOutputStream());
-    	Log.v("PCA", "mount -o rw,remount -t " + device.FPart() + " " + device.System() + " /system");
-    	os.writeBytes("mount -o rw,remount -t " + device.FPart() + " " + device.System() + " /system");
+    	Log.v("PCA", "mount -o rw,remount -t " + myFormat[0] + " " + myPhone[4] + " /system");
+    	os.writeBytes("mount -o rw,remount -t " + myFormat[0] + " " + myPhone[4] + " /system");
     	
     	Log.v("PCA", "rm /system/etc/motorola/com.motorola.blur.service.blur/defaults.xml");
     	os.writeBytes("rm /system/etc/motorola/com.motorola.blur.service.blur/defaults.xml\n");
@@ -102,10 +107,7 @@ Zdevices device = new Zdevices();
     	
     	Log.v("PCA", "echo \"<map><string name='blur.service.ws.useApnProxy'>0</string><string name='blur.service.ws.masterCloud'>" + server + "</string></map>\" > /system/etc/motorola/com.motorola.blur.service.blur/defaults.xml \n");
     	os.writeBytes("echo \"<map><string name='blur.service.ws.useApnProxy'>0</string><string name='blur.service.ws.masterCloud'>" + server + "</string></map>\" > /system/etc/motorola/com.motorola.blur.service.blur/defaults.xml \n");
-    	
-    //	Log.v("PCA", "echo rm /data/data/\n");
-    //	os.writeBytes("echo rm /data/data/\n");
-    	
+    	    	
     	Log.v("PCA", "echo \"<?xml version='1.0' encoding='UTF-8'?><map><boolean name='AllowActiveSync' value='true'/><boolean name='ShowSkipSetupMenu' value='true'/><boolean name='ShowConnectionChooser' value='true'/><boolean name='ShowDataSaverInSetup' value='true'/><boolean name='WifiPreference' value='true'/><boolean name='loc_consent_unchecked' value='false'/><boolean name='CloudPreference' value='true'/></map>\" > /data/data/com.motorola.blur.setup/defaults.xml\n");
     	os.writeBytes("echo \"<?xml version='1.0' encoding='UTF-8'?><map><boolean name='AllowActiveSync' value='true'/><boolean name='ShowSkipSetupMenu' value='true'/><boolean name='ShowConnectionChooser' value='true'/><boolean name='ShowDataSaverInSetup' value='true'/><boolean name='WifiPreference' value='true'/><boolean name='loc_consent_unchecked' value='false'/><boolean name='CloudPreference' value='true'/></map>\" > /data/data/com.motorola.blur.setup/defaults.xml\n");
     	
@@ -119,8 +121,6 @@ Zdevices device = new Zdevices();
 	}
 	
     }
-
-    
     //development server buttons
     //devlopment
     public void master_lab(View view){
